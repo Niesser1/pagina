@@ -1,0 +1,265 @@
+
+
+
+* {
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+}
+
+.body{
+  width: 100%;
+background-color: rgba(255, 255, 255, 0.719);
+color:rgb(117, 53, 84) ;
+font-family: 'Rajdhani', sans-serif;
+}
+
+.column-container {
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.column-item {
+  margin: 10px;
+  padding: 20px;
+  border: 0;
+  text-align: center;
+  color: rgb(117, 53, 84);
+  font-family: 'Dancing Script', cursive;
+  font-size: large;
+}
+
+#gifflower{
+  width: 20%;
+}
+
+
+.contenedor {
+  position: relative;
+  width: 100%;
+  max-width: 600px; 
+}
+
+
+.img-audio {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.audio {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  z-index: 1; 
+}
+
+.textAudio{
+  color:rgb(153, 64, 42);
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+
+
+.textConfirm{
+  color:rgb(196, 162, 69);
+  font-family: 'Dancing Script', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.textUbi{
+  color:rgb(255, 255, 255);
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .column-container {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+  }
+  
+  .column-item {
+    margin: 10px;
+    padding: 20px;
+    border: 0;
+    text-align: center;
+    color: rgb(117, 53, 84);
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+  }
+  
+  #gifflower{
+    width: 20%;
+  }
+  
+  
+  .contenedor {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+  }
+  
+  
+  .img-audio {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+  .audio {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    z-index: 1; 
+  }
+  
+  .textAudio{
+    color:rgb(153, 64, 42);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+  }
+  
+  
+  
+  .textConfirm{
+    color:rgb(196, 162, 69);
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  .textUbi{
+    color:rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+  }
+}
+
+
+@media only screen and  (min-width: 768px) and (max-width: 1024px) {
+  .column-container {
+    display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5%;
+ 
+
+
+  }
+
+  #countdown{
+    position: relative;
+    left: 25%;
+    width: 100%;
+    align-items: center;  }
+  
+  .column-item {
+    margin: 10px;
+    padding: 20px;
+    border: 0;
+    text-align: center;
+    color: rgb(117, 53, 84);
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+  }
+  
+  .gifflower1{
+    width: 400px;
+    position: relative;
+    left: 25%;
+    align-items: center; 
+  }
+  
+  
+  .contenedor {
+    position: relative;
+    text-align: center;    width: 100%;
+    max-width: 600px; 
+  }
+  
+  .containerfecha{
+    text-align: center;
+  }
+  
+  .img-audio {
+    width: 100%;
+    height: 100%;
+    display: block;
+   
+  }
+  
+  .img-audio1 {
+     width: 100vw;
+  }
+
+  
+  .audio {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 100%;
+    align-items: center;
+    z-index: 1; 
+  }
+  
+  .textAudio{
+    color:rgb(153, 64, 42);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+  }
+  
+  .textAudio1{
+    font-size: 45px;
+    color:rgb(153, 64, 42);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+  }
+  
+  .textConfirm{
+    color:rgb(196, 162, 69);
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .textConfirm1{
+    color:rgb(196, 162, 69);
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+  }
+  
+  .textUbi{
+    color:rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 15%;
+  }
+
+}
